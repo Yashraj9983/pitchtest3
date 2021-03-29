@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>                                                                                         
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    
+    <button onclick="audint()">start</button>
+   <button onclick="audstart()">play</button>
+    <button onclick="audstop()">pause</button>
+    <div class="navbar"><span>real time chart</span></div>
+     <div class="wrapper"><div id="chart"></div>
+                                           </div>
+     <div id="modelstatus">Click on start</div>
+     <h4>Frequency : <span id="curfreq">0</span> Hz</h4>  
+     <h4>Note : <span id="note"></span> </h4>                  
+                               
+ <!--    <button class="play">Play</button>
+    <a href="javascript:touchStarted();">Click on me</a>  
+                                        -->
+<script src="sketch.js"></script>
+</body></html>
